@@ -7,6 +7,7 @@
   padding: 10px 0 0px;
   border-bottom: 1px solid rgba(247, 243, 243, 0.4);
   background-color: #fff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
 }
 .header .header-left {
   width: 147px;
@@ -602,11 +603,18 @@
   .header {
     display: none;
   }
+  .card-item-visiable {
+    display: none;
+  }
+  .partner-item-visiable {
+    display: none;
+  }
   .home {
     margin-top: 0;
   }
   .mobile-menu {
     display: block;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
   }
   .mobile-menu .site-logo {
     width: 147px;

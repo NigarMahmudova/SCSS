@@ -8,6 +8,9 @@
     padding: 10px 0 0px;
     border-bottom: 1px solid rgb(247, 243, 243, 0.4);
     background-color: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
+
+
 
     .header-left {
         width: 147px;
@@ -38,55 +41,6 @@
     }
 }
 
-// #mobile-menu {
-//     display: block;
-//     width: 100%;
-
-//     .slicknav-menu {
-//         font-size: 16px;
-//         box-sizing: border-box;
-//         background: transparent;
-//         padding: 0;
-
-//         &::before {
-//             content: " ";
-//             display: table;
-//         }
-
-//         .slicknav-btn {
-//             margin: 0;
-//             text-decoration: none;
-//             position: absolute;
-//             top: 35px;
-//             right: 17px;
-
-//             .slicknav-menutxt {
-//                 color: #00d690;
-//                 font-weight: bold;
-//                 display: block;
-//                 line-height: 1.188em;
-//                 float: left;
-//             }
-
-//             .slicknav-icon {
-//                 float: left;
-//                 width: 1.125em;
-//                 height: 0.875em;
-
-//                 &::before {
-//                     background: transparent;
-//                     width: 1.125em;
-//                     height: 0.875em;
-//                     display: block;
-//                     content: "";
-//                     position: absolute;
-//                 }
-//             }
-//         }
-
-
-//     }
-// }
 
 .home {
     background-image: url(https://getmasum.com/html-preview/nour/assets/img/slider/1.jpg);
@@ -767,17 +721,27 @@
         display: none;
     }
 
+    .card-item-visiable {
+        display: none;
+    }
+
+    .partner-item-visiable {
+        display: none;
+    }
+
     .home {
         margin-top: 0;
     }
 
     .mobile-menu {
         display: block;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
 
         .site-logo {
             width: 147px;
             height: auto;
-            img{
+
+            img {
                 width: 100%;
             }
         }
